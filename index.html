@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caeser Cipher</title>
+    <link rel="stylesheet" href="caeser.css">
+    <script src="caeser.js"></script>
+</head>
+<body>
+    <form>
+        <h2>Caeser Cipher Online</h2><br>
+        <label for="inital-text">Input message:</label><br>
+        <input type="text" id="initial-text" name="inital-text"><br><br>
+
+        <label for="shift-num">Shift Number (1-26):</label><br>
+        <input type="number" max="26" min="1" required id="shift-num" name="shift-num"><br><br>
+
+        <button type="Button" id="encrypt">Encrypt</button>
+        <button type="Button" id="decrypt">Decrypt</button><br><br><br>
+
+        <p id="final-text"></p>
+
+      </form>
+    
+</body>
+</html>

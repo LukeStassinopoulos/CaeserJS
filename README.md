@@ -1,2 +1,2 @@
 # CeaserJS
-Using JavaScript for encryption and decryption using a Ceaser cypher
+Using JavaScript to encrypt and decrypt with a Caeser cypher
